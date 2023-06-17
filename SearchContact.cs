@@ -61,18 +61,7 @@ namespace SearchContactWorkflowExtension
 
                 DataCollection<Entity> contacts = service.RetrieveMultiple(query).Entities;
 
-                switch (contacts.Count)
-                {
-                    case 0:
-                        resultStatus = 2;
-                        break;
-                    case 1:
-                        resultStatus = 1;
-                        break;
-                    default:
-                        resultStatus = 3;
-                        break;
-                }
+                resultStatus = contacts.Count == 0 ? 2 : (contacts.Count == 1 ? 1 : 3);
 
                 foreach (var contact in contacts)
                 {
