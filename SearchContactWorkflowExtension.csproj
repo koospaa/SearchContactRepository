@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net462</TargetFramework>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>SearchContactWorkflowActivity.snk</AssemblyOriginatorKeyFile>
+    <AssemblyName>SearchContactWorkflowExtension</AssemblyName>
+    <RootNamespace>SearchContactWorkflowExtension</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CrmSdk.Workflow" Version="9.0.2.49" />
+    <PackageReference Include="Microsoft.CrmSdk.XrmTooling.PluginRegistrationTool" Version="9.1.0.184" />
+  </ItemGroup>
+
+</Project>
