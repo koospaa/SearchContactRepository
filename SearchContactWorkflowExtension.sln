@@ -7,6 +7,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchContactWorkflowExtens
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestSearchContactWorkflow", "..\UnitTestSearchContactWorkflow\UnitTestSearchContactWorkflow.csproj", "{F4A8C3D1-71B1-4704-ADDB-2D17CE1DC3AE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task 1 (Code Activity)", "Task 1 (Code Activity)", "{252EF998-21AE-4217-BA2B-C00569B820A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task 2 (Unit Test)", "Task 2 (Unit Test)", "{CFF1C5D9-AF79-4EA5-B2BB-1215CDFEEF95}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projects", "Projects", "{B89BB830-D14A-4EEF-BE28-886D983B5432}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +30,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F13FC0CA-83EB-4666-8A7F-AACBE7034F16} = {252EF998-21AE-4217-BA2B-C00569B820A8}
+		{F4A8C3D1-71B1-4704-ADDB-2D17CE1DC3AE} = {CFF1C5D9-AF79-4EA5-B2BB-1215CDFEEF95}
+		{252EF998-21AE-4217-BA2B-C00569B820A8} = {B89BB830-D14A-4EEF-BE28-886D983B5432}
+		{CFF1C5D9-AF79-4EA5-B2BB-1215CDFEEF95} = {B89BB830-D14A-4EEF-BE28-886D983B5432}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {79302DA7-DB1F-4768-B406-F1F4A522D76C}
