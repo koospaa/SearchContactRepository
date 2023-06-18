@@ -105,7 +105,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SearchContact\SearchContactWorkflowExtension.csproj">
+    <ProjectReference Include="..\MyWorkflowExtension\SearchContactWorkflowExtension.csproj">
       <Project>{f13fc0ca-83eb-4666-8a7f-aacbe7034f16}</Project>
       <Name>SearchContactWorkflowExtension</Name>
     </ProjectReference>
